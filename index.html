@@ -3,13 +3,48 @@
 <title>PortfolioPenelope</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .container .btn:hover {
+    background-color: black;
+  }
+</style>
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
   body {
     font-family: "Times New Roman", Georgia, Serif;
-    background-color:turquoise ;
+    background-color: turquoise;
     text-align: center;
+    text-align-last: center;
   }
+
 
   h1,
   h2,
@@ -19,21 +54,23 @@
   h6 {
     font-family: "Playfair Display";
     letter-spacing: 5px;
+    text-align: initial;
+
   }
 </style>
 
 <body>
 
-  <!-- Navbar (sit on top) -->
+
   <div class="w3-top">
     <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
       <a href="http://facebook.com/penelope.owens">Facebook</a>
       <a href="https://linkedin.com/in/penelope-owens-725ba97a">Linklen</a>
       <a href="https://twitter.com/owenspennie9">Twitter</a>
-      <a href="https://web.whatsapp.com/penelope.owens" class="right">WhatsApp</a>
+      <a href="https://https://github.com/owenspennie9" class="right">Github</a>
     </div>
 
-    <!-- Right-sided navbar links. Hide them on small screens -->
+
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#project" class="w3-bar-item w3-button">Projects</a>
@@ -43,11 +80,15 @@
   </div>
 
   <!-- Header -->
-  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-    <img src="https://www.bing.com/images/blob?bcid=SEWRptWTjQUBUA" class="" alt="" width="1500" height="750">
-    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-      <h1 class="w3-xxlarge"></h1>
-    </div>
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge"></h1>
+  </div>
+  <header class="w3-display-container w3-wide w3-center" id="home">
+    <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;"
+      src="https://www.bing.com/images/blob?bcid=SMd1-T585AYBUQ" width="1400" height="620">
+    <br>
+    <div class="center">
+      <h1 class="w3-center">Bio</h1></br>
   </header>
 
   <!-- Page content -->
@@ -55,80 +96,104 @@
 
     <!-- Bio Section -->
     <div class="w3-row w3-padding-84" id="about">
-      <div class="w3-col m6 w3-padding-large w3-hide-small">
 
-        <body>
+      <body>
+        <div class="background-color w3-light-teal">
+          <div class="w3-col m6 w3-padding-large"></div>
           <div class="center">
-            <div class="background-color w3-light-teal">
-              <div class="w3-col m6 w3-padding-large">
-              </div>
-              <h1 class="w3-center">Bio</h1><br>
-              <h5 class="w3-center">Thinkful Beginner</h5>
-              <p class="w3-large">I am a new and highly trained web developer. I am beginning to learn more everyday on
-                how
-                to be productive in this type of work. I have accomplished and completed many projects such as a quiz
-                app,
-                bookmark app, and creating responsive design web pages.
-                My background is completely different , I have worked in law enforcement for over 15 years, and have an
-                associate degree in criminal justice. My health and lifestyle has placed me in a
-                position to change my career and my path for success <span class="w3-tag w3-light-grey">(besides two
-                  glasses
-                  of mimosa</span>and tylenol). I have invested in laptops , desktops ,tablets, and ipads. I
-                am always searching and exploring ways to develop designs for web pages. I have worked from home as a
-                customer service agent for 4 years , and I learned more about different web applications.
-                Now,creating , has been fascinating. I want to establish my own contract business remotely , helping
-                others
-                to create their own web designs or business apps. I would
-                love to see myself in the future creating and publishing the work I have done for other people
-                and businesses.</p>
+            <br>
+            <h5 class="w3-center">Thinkful Beginner</h5>
+            <span>
+              <p class="w3-large">I am a student web developer. I continue to learn,daily,
+                on how to be productive in this type of field. I have accomplished and completed many projects such as
+                a quiz app, bookmark app, and creating my first web page.
+                My background is completely different ,now, my expiences andk skills set are in law enforcement , which
+                I have for dedicated 15 years. I have an Associates Degree from Univesity of Pheonix in Criminal
+                Justice.</p>
+
+              
+              <p class="w3-large"> My health and lifestyle has placed me in a position to change my career and my path for success <span
+                  class="w3-tag w3-light-grey">(besides two glasses of mimosa</span>and a tylenol).
+                My investments in laptops , desktops ,tablets, and ipads have taken me an obsession exploring the
+                fundementals of web development. I am always finding creative to ways to designs web pages.
+              </p>
+            </span>
+            <span>
+              <p class="w3-large">Now,creating and having hands-on experience , has been fascinating.
+                I want to establish my own contract business ,remotely , helping others to create their own web designs
+                or business apps. I would
+                like to see myself in the future creating and publishing the work I have done for other people and
+                businesses.</p>
+            </span>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Project Section -->
+        <br class="w3-row w3-padding-64" id="projects">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center">My Projects</h1></br>
+
+          <br class="w3-row center">
+          <h4>Mobile Quiz APP</h4>
+          <div class="container">
+            <img class="w3-text-grey"><img style="-webkit-user-select: none;margin:auto ;"
+              src="http://www.reelworldtheology.com/wp-content/uploads/2016/12/TWD-S7E8-Rick-and-Negan.jpg">
+            <p><br>
+              <a href="https://thinkful-ei-macaw.github.io/QuizApp-Ian-Penelope/">
+                <button class="btn">Touch</button></a>
+          </div>
+
+          <br class="w-3  w3-top right">
+          <h4>BookMarkAPP</h4>
+          <div class="container">
+            <p class="w3-text-grey"><img id="preview_image" alt="Book icon"
+                src="http://www.myiconfinder.com/uploads/iconsets/64-64-916f560d659cf4309eb8f6afdc414c1f.png"
+                style="width:250px">
+            </p><br>
+            <a href="https://thinkful-ei-macaw.github.io/BookMarkApps-Penelope/?">
+              <button class="btn">Touch</button></a>
+
+
+
+            <div class="w3-col l6 w3-padding-large">
+              <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="" style="width:100%">
             </div>
           </div>
 
           <hr>
 
-          <!-- Project Section -->
-          <div class="w3-row w3-padding-64" id="projects">
-            <div class="w3-col l6 w3-padding-large">
-              <h1 class="w3-center">My Projects</h1><br>
-              <h4>Mobile Quiz APP</h4>
-              <p class="w3-text-grey"></p><br>
-
-              <h4>BookMarkAPP</h4>
-              <p class="w3-text-grey"></p><br>
-
-              <h4>Responsive Designs<h4>
-                  <p class="w3-text-grey"></p><br>
-
-
-                  <div class="w3-col l6 w3-padding-large">
-                    <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt=""
-                      style="width:100%">
-                  </div>
-            </div>
-
-            <hr>
-
-            <!-- Contact Section -->
-            <div class="w3-container w3-padding-64" id="contact">
-              <h1>References</h1><br>
-              <br>
-              <p class="w3-text-blue-grey w3-large">
-                Feel Free to Contact References Below</p></br>
-              <b>
-                <p>Mark Holmes, Supervisor, RCCI, Phone:(706)993-5153
-                </p>
-              </b>
-              <b>
-                <p>Carlos Rivera, Supervisor, ASMP, Phone:(706)248-4633 </p>
-              </b>
-              <b>
-                <p>George Robinson, Supervisor,RCCI,Phone:(706)691-4678 </p>
-              </b>
+          <!-- Contact Section -->
+          <br>
+          <br class="w3-container w3-padding-64" id="contact">
+          <h1>References</h1>
+          <div>
+            <br>
+            <p class="w3-text-blue-grey w3-large">
+              Feel Free to Contact References Below</p></br>
+            <b>
+              <p>Mark Holmes, Supervisor, RCCI, Phone:(706)993-5153
+              </p>
+            </b>
+            <b>
+              <p>Carlos Rivera, Supervisor, ASMP, Phone:(706)248-4633 </p>
+            </b>
+            <b>
+              <p>George Robinson, Supervisor,RCCI,Phone:(706)691-4678 </p>
+            </b>
 
 
-              <!-- End page content -->
-            </div>
+            <!-- End page content -->
+          </div>
 
-            <!-- Footer -->
-            <footer class="w3-center w3-light-grey w3-padding-32">
-            </footer>
+          <!-- Footer -->
+          <footer class="w3-center w3-light-grey w3-padding-48">
+            <br>
+            <p>Penelope Owens</p>
+            <br><span>owenspennie9@live.com</span></br><span>281-384-7199<span>
+          </footer>
+          <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+      </body>
+
+</html>
