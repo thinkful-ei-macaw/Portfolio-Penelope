@@ -1,8 +1,8 @@
  *{
-  box-sizing: border-box;
-  border:5px solid transparent;
+  box-sizing:content-box;
+  border:8px solid transparent;
   margin: auto;
-  scroll-padding-right:  30px;
+  scroll-padding-right:  20px;
   font-display:initial ;
 }
 
@@ -17,21 +17,72 @@ body {
 
 nav,
 footer {
-  padding: 1% 0;
-  background-color: #aaa;
+  padding: 5% 0;
+  background-color: white;
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  position:center;
+  top: 3px;
+  left: 5px;
+  right: 1px;
   z-index: 10;
 }
 main{
-  display:inherit;
+  display:ruby-base-container;
   flex-direction: column;
-  flex-direction: column-reverse;
+  flex-basis: content;
   flex-direction: row;
   flex-direction: row-reverse;
+}
+.container {
+  border: #555 solid unset;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: gray;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  background-color: rgb(175, 250, 244);
+  text-align: center;
+  text-align-last: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  text-align: center;
 }
