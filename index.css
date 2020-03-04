@@ -84,3 +84,8 @@ h6 {
     letter-spacing: 5px;
     text-align: center;
 }
+
+.button {
+    background-color: darkgray;
+    border: 2px solid transparent;
+}
