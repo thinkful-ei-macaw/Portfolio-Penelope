@@ -10,7 +10,7 @@
    font-family: "Open Sans",
      sans-serif;
    font-size: 20px;
-   color: #444;
+   color:#121212;
    text-align: center;
    line-height: 1.5;
  }
@@ -75,7 +75,7 @@
 
  body {
    font-family: "Times New Roman", Georgia, Serif;
-   background-color: rgb(187, 219, 212);
+   background-color: #15EAE4;
    text-align: center;
    text-align-last: center;
  }
@@ -90,13 +90,13 @@
    font-family: "Playfair Display";
    letter-spacing: 5px;
    text-align: center;
-   text-decoration-color: #555;
+   text-decoration-color:#121212;
  }
 
  div.container a {
    background-size: contain;
    border-left: #555;
-   color: gray;
+   color: #121212;
    text-decoration: white;
    margin: 10px;
    padding: 10px;
