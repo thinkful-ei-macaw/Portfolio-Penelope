@@ -4,24 +4,43 @@
 <html lang="en">
 
 <head>
+  <style>
+    .nav {
+      background-origin: padding-box 64px;
+      border: 1px solid black;
+      text-align: left;
+      text-decoration-color: black;
+    }
+
+    li {
+      display: inline;
+    }
+  </style>
+
   <title>Penelope</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="/html//css/...asp">
+  <link rel="stylesheet" href="">
   <meta charset="UTF-8">
 
 </head>
 
 
 
+
 <body>
+
   <header>
-    <nav>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </nav>
+    <Nav>
+      <div class="w3-right w3-hide-small">
+        <a href= "#about" class="">About</a>
+        <a href= "#projects" class="">Projects</a>
+        <a href="#contact" class="">Contact</a>
+      </div>
+    </Nav>
+
 
     <br>
 
@@ -31,25 +50,25 @@
   <main>
     <section>
 
-      <br class="w3-row w3-padding-64" id="about">
+      <br class="row padding-64" id="about">
       <h2>Bio</h2>
-      <div class="w3-col m6 w3-padding-large"></div>
+      <div class="col m6 padding-large"></div>
       <div class="center"></div>
 
     </section>
 
     <section>
       <br>
-      <h2 class="w3-center">Thinkful Beginner</h2>
+      <h2 class="center">Thinkful Beginner</h2>
 
-      <p class="w3-large">I am a student web developer. I continue to learn, daily, how to be productive in this type of
+      <p class="large">I am a student web developer. I continue to learn, daily, how to be productive in this type of
         field. I have accomplished and completed many projects such as the quiz and bookmark app. My education and
         experiences are completely different than those of a software developer. I have an Associates Degree from the
         University of Phoenix in Criminal Justice and I worked 15 years in law enforcement.
       </p>
 
 
-      <p class="w3-large">My health and lifestyle has placed me in a position to change my career and my path for
+      <p class="large">My health and lifestyle has placed me in a position to change my career and my path for
         success.
         My investments in laptops, desktops, tablets, and iPad causes me to
         have an obsession in exploring the fundamentals of web development. I am always finding creative ways of web
@@ -57,7 +76,7 @@
       </p>
 
 
-      <p class="w3-large">Having hands-on experience has been fascinating. I want to establish my own contract business
+      <p class="large">Having hands-on experience has been fascinating. I want to establish my own contract business
         and remotely work with a team of programmers. I would like to help others to create their own web designs or
         business apps. I could see myself in the future creating and publishing the work I have done for other people
         and
@@ -66,17 +85,17 @@
     </section>
     <section>
       <hr>
-      <br class="w3-row w3-padding-64" id="projects">
+      <br class="row padding-64" >
       <br>
-      <h2 class="w3-center">My Projects</h2>
-      <div class="w3-col l6 w3-padding-large">
+      <h2  class="center " id="projects">My Projects</h2>
+      <div class="col l6 padding-large">
         <div class="container">
         </div>
       </div>
     </section>
 
     <section>
-      <div class="w3-center">
+      <div class="center">
         <div class="container">
           <br>
           <h2>Mobile Quiz APP</h2><br>
@@ -86,7 +105,7 @@
         </div>
 
         <div class="container">
-          <p class="w3-large w3-text-black w3-text-medium "> I created a quiz app with one of my classmates. We came
+          <p class="large w3-text-black text-medium "> I created a quiz app with one of my classmates. We came
             up with something that we both enjoy watching.
             I believe I was more of a fan when we came up with the app for "The Walking Dead" Fan quiz.
             We started this quiz app with the flex-box method,using JavaScript,
@@ -100,16 +119,16 @@
       <h2>BookMarkAPP</h2>
       <div class="container">
 
-        <p class="w3-text-grey"><iframe src="https://giphy.com/embed/h5EyOPvB9VToUKbdfO" width="200" height="300"
+        <p class="text-grey"><iframe src="https://giphy.com/embed/h5EyOPvB9VToUKbdfO" width="200" height="300"
             allowFullScreen></iframe><a href="https://giphy.com/gifs/h5EyOPvB9VToUKbdfO"></a>
           <br> <a target="_blank" href="https://thinkful-ei-macaw.github.io/BookMarkApps-Penelope/?"
             class="button">Press Here</a>
 
           <div class="container">
-            <p class="w3-large w3-text-black w3-text-medium">My Bookmark app has been one of my most challenging
+            <p class="large w3-text-black text-medium">My Bookmark app has been one of my most challenging
               projects.
               I
-              started my bookmark app with a box mobile design and in use JavaScript, API,JQUERY, HTML5, CSS3, and JSON.
+              started my bookmark app with a box mobile design and use JavaScript, API,JQUERY, HTML5, CSS3, and JSON.
               I
               had to continue to work on this app for outstanding results.
           </div>
@@ -119,7 +138,7 @@
     <section>
   </main>
 
-  <footer class="w3-bar-item w3-white w3-padding w3-card" id="contact">
+  <footer class="bar-item white padding  card" id="contact">
     <br>
     <h2>Contact Me</h2>
     <p>Penelope Owens</p>

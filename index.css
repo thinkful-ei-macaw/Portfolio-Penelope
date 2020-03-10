@@ -20,6 +20,7 @@
    padding: 1% 0;
    background-color: white;
    border: 1px solid gray;
+   text-decoration: black;
 
  }
 
@@ -108,4 +109,8 @@
 box-sizing: border-box;
 background-color: #555;
 border: 1px solid darkgrey;
+}
+a{
+  color: black;
+
 }
