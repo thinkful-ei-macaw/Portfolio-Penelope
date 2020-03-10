@@ -114,3 +114,13 @@ a{
   color: black;
 
 }
+.nav {
+  background-origin: padding-box 64px;
+  border: 1px solid black;
+  text-align: left;
+  text-decoration-color: black;
+}
+
+li {
+  display: inline;
+}
