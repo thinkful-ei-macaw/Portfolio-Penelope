@@ -10,7 +10,7 @@
    font-family: "Open Sans",
      sans-serif;
    font-size: 20px;
-   color:#121212;
+   color: #121212;
    text-align: center;
    line-height: 1.5;
  }
@@ -25,7 +25,7 @@
  }
 
  nav {
-   display:block;
+   display: block;
    position: fixed;
    top: 0;
    left: 0;
@@ -91,7 +91,7 @@
    font-family: "Playfair Display";
    letter-spacing: 5px;
    text-align: center;
-   text-decoration-color:#121212;
+   text-decoration-color: #121212;
  }
 
  div.container a {
@@ -105,22 +105,31 @@
    z-index: 0;
    cursor: pointer;
  }
-.btn{
-box-sizing: border-box;
-background-color: #555;
-border: 1px solid darkgrey;
-}
-a{
-  color: black;
 
-}
-.nav {
-  background-origin: padding-box 64px;
-  border: 1px solid black;
-  text-align: left;
-  text-decoration-color: black;
-}
+ .btn {
+   box-sizing: border-box;
+   background-color: #555;
+   border: 1px solid darkgrey;
+ }
 
-li {
-  display: inline;
-}
+ a {
+   color: black;
+
+ }
+
+ .nav {
+   background-origin: padding-box 64px;
+   border: 1px solid black;
+   text-align: left;
+   text-decoration-color: black;
+ }
+
+ li {
+   display: inline;
+ }
+
+ @media screen and (min-width:480px) {
+   body {
+     text-align: center;
+   }
+ }
